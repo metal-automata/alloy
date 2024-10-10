@@ -9,9 +9,9 @@ import (
 	"github.com/bmc-toolbox/common"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/uuid"
-	"github.com/metal-toolbox/alloy/internal/helpers"
-	"github.com/metal-toolbox/alloy/internal/model"
-	fleetdbapi "github.com/metal-toolbox/fleetdb/pkg/api/v1"
+	"github.com/metal-automata/alloy/internal/helpers"
+	"github.com/metal-automata/alloy/internal/model"
+	fleetdbapi "github.com/metal-automata/fleetdb/pkg/api/v1"
 	"github.com/pkg/errors"
 	r3diff "github.com/r3labs/diff/v3"
 	"golang.org/x/exp/slices"
@@ -83,7 +83,7 @@ func (r *Store) publishUEFIVars(ctx context.Context, serverID uuid.UUID, asset *
 	}
 
 	va := fleetdbapi.VersionedAttributes{
-		// waiting on https://github.com/metal-toolbox/rivets/pull/28
+		// waiting on https://github.com/metal-automata/rivets/pull/28
 		// Namespace: rs.UEFIVarsNS,
 		Namespace: "sh.hollow.alloy.uefi_vars",
 		Data:      []byte(vars),

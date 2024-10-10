@@ -62,7 +62,7 @@ alloy outofband --store csv --csv-file ./examples/assets.csv  --asset-ids 6b8a09
 
 #### Run - `inband`
 
-Inband inventory collection requires various OS based utilites provided by [ironlib](https://github.com/metal-toolbox/ironlib) docker image.
+Inband inventory collection requires various OS based utilites provided by [ironlib](https://github.com/metal-automata/ironlib) docker image.
 
 
 ```mermaid

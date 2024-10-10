@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/metal-toolbox/alloy/internal/version"
+	"github.com/metal-automata/alloy/internal/version"
 	"github.com/spf13/cobra"
 )
 

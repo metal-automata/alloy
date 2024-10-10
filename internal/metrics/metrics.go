@@ -6,14 +6,14 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/metal-toolbox/alloy/internal/model"
+	"github.com/metal-automata/alloy/internal/model"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	rctypes "github.com/metal-toolbox/rivets/condition"
+	rctypes "github.com/metal-automata/rivets/condition"
 )
 
 // s shared across packages are defined and initialized here.

@@ -8,8 +8,8 @@ import (
 
 	"github.com/bmc-toolbox/common"
 	"github.com/google/uuid"
-	"github.com/metal-toolbox/alloy/internal/model"
-	fleetdbapi "github.com/metal-toolbox/fleetdb/pkg/api/v1"
+	"github.com/metal-automata/alloy/internal/model"
+	fleetdbapi "github.com/metal-automata/fleetdb/pkg/api/v1"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

@@ -5,8 +5,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/metal-toolbox/alloy/internal/store"
-	"github.com/metal-toolbox/alloy/internal/store/mock"
+	"github.com/metal-automata/alloy/internal/store"
+	"github.com/metal-automata/alloy/internal/store/mock"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/goleak"

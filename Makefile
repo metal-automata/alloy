@@ -1,5 +1,5 @@
 export DOCKER_BUILDKIT=1
-LDFLAG_LOCATION := github.com/metal-toolbox/alloy/internal/version
+LDFLAG_LOCATION := github.com/metal-automata/alloy/internal/version
 GIT_COMMIT  := $(shell git rev-parse --short HEAD)
 GIT_BRANCH  := $(shell git symbolic-ref -q --short HEAD)
 GIT_SUMMARY := $(shell git describe --tags --dirty --always)
@@ -7,9 +7,9 @@ VERSION     := $(shell git describe --tags 2> /dev/null)
 BUILD_DATE  := $(shell date +%s)
 GIT_COMMIT_FULL  := $(shell git rev-parse HEAD)
 GO_VERSION := $(shell expr `go version |cut -d ' ' -f3 |cut -d. -f2` \>= 16)
-DOCKER_IMAGE_INBAND  := "ghcr.io/metal-toolbox/alloy-inband"
-DOCKER_IMAGE  := "ghcr.io/metal-toolbox/alloy"
-REPO := "https://github.com/metal-toolbox/alloy.git"
+DOCKER_IMAGE_INBAND  := "ghcr.io/metal-automata/alloy-inband"
+DOCKER_IMAGE  := "ghcr.io/metal-automata/alloy"
+REPO := "https://github.com/metal-automata/alloy.git"
 
 .DEFAULT_GOAL := help
 
@@ -47,7 +47,7 @@ endif
 		 -X ${LDFLAG_LOCATION}.Version=${VERSION} \
 		 -X ${LDFLAG_LOCATION}.BuildDate=${BUILD_DATE}"
 
-## build docker image and tag as ghcr.io/metal-toolbox/alloy:latest
+## build docker image and tag as ghcr.io/metal-automata/alloy:latest
 build-image: build-linux
 	@echo ">>>> NOTE: You may want to execute 'make build-image-nocache' depending on the Docker stages changed"
 	docker build --rm=true -f Dockerfile -t ${DOCKER_IMAGE}:latest . \
@@ -55,7 +55,7 @@ build-image: build-linux
 		--label org.label-schema.vcs-ref=${GIT_COMMIT_FULL} \
 		--label org.label-schema.vcs-url=${REPO}
 
-## build docker image and tag as ghcr.io/metal-toolbox/alloy-inband:latest
+## build docker image and tag as ghcr.io/metal-automata/alloy-inband:latest
 build-image-inband: build-linux
 	@echo ">>>> NOTE: You may want to execute 'make build-image-nocache' depending on the Docker stages changed"
 	docker build --rm=true -f Dockerfile.inband -t ${DOCKER_IMAGE_INBAND}:latest . \

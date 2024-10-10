@@ -1,5 +1,6 @@
 /*
-Copyright © 2022 Metal toolbox authors <>
+Copyright © 2022-2024 Metal toolbox authors <>
+Copyright 2024 metal-automata https://github.com/metal-automata
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -19,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/metal-toolbox/alloy/internal/model"
+	"github.com/metal-automata/alloy/internal/model"
 	"github.com/spf13/cobra"
 )
 

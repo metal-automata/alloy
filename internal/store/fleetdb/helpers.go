@@ -11,14 +11,14 @@ import (
 
 	"github.com/coreos/go-oidc"
 	"github.com/hashicorp/go-retryablehttp"
-	"github.com/metal-toolbox/alloy/internal/app"
-	"github.com/metal-toolbox/alloy/internal/model"
+	"github.com/metal-automata/alloy/internal/app"
+	"github.com/metal-automata/alloy/internal/model"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	"golang.org/x/oauth2/clientcredentials"
 
-	fleetdbapi "github.com/metal-toolbox/fleetdb/pkg/api/v1"
+	fleetdbapi "github.com/metal-automata/fleetdb/pkg/api/v1"
 )
 
 var (

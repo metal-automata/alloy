@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/metal-toolbox/alloy/internal/model"
+	"github.com/metal-automata/alloy/internal/model"
 
 	// nolint:gosec // pprof path is only exposed over localhost
 	_ "net/http/pprof"

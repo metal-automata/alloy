@@ -3,7 +3,7 @@
 ## Submitting changes
 
 Run `make test` and `make lint` and ensure it all passes before submitting a PR.
-Checkout the [PR template](https://github.com/metal-toolbox/alloy/blob/main/.github/PULL_REQUEST_TEMPLATE.md) and create a pull request at [alloy PRs](https://github.com/metal-toolbox/alloy/pulls)
+Checkout the [PR template](https://github.com/metal-automata/alloy/blob/main/.github/PULL_REQUEST_TEMPLATE.md) and create a pull request at [alloy PRs](https://github.com/metal-automata/alloy/pulls)
 
 ## Coding conventions
 

@@ -3,9 +3,9 @@ package device
 import (
 	"context"
 
-	"github.com/metal-toolbox/alloy/internal/device/inband"
-	"github.com/metal-toolbox/alloy/internal/device/outofband"
-	"github.com/metal-toolbox/alloy/internal/model"
+	"github.com/metal-automata/alloy/internal/device/inband"
+	"github.com/metal-automata/alloy/internal/device/outofband"
+	"github.com/metal-automata/alloy/internal/model"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

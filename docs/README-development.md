@@ -1,6 +1,6 @@
 ### Alloy software components
 
-Check out the [sandbox](https://github.com/metal-toolbox/sandbox) repository to run Alloy along with fleetdbapi.
+Check out the [sandbox](https://github.com/metal-automata/sandbox) repository to run Alloy along with fleetdbapi.
 
 Alloy is internally composed of two main components the `Collector` and the `Controller`,
 the store is a backend repository of inventory assets.
@@ -19,7 +19,7 @@ TODO: explain controller bits, the asset iterator is split out as the Alloy sche
 ###### In band collection
 
 In band inventory is collected when alloy is invoked with the `inband` command,
-this calls into the [ironlib](https://github.com/metal-toolbox/ironlib) library
+this calls into the [ironlib](https://github.com/metal-automata/ironlib) library
 which abstracts the hardware/vendor specific data collection through a host OS.
 
 ```mermaid

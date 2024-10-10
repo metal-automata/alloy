@@ -3,7 +3,7 @@ package fixtures
 import (
 	"github.com/bmc-toolbox/common"
 	"github.com/jinzhu/copier"
-	fleetdbapi "github.com/metal-toolbox/fleetdb/pkg/api/v1"
+	fleetdbapi "github.com/metal-automata/fleetdb/pkg/api/v1"
 )
 
 // CopyDevice returns a pointer to a copy of the given ironlib device object

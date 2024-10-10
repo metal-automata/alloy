@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/bmc-toolbox/common"
-	"github.com/metal-toolbox/alloy/internal/fixtures"
-	"github.com/metal-toolbox/alloy/internal/model"
-	fleetdbapi "github.com/metal-toolbox/fleetdb/pkg/api/v1"
+	"github.com/metal-automata/alloy/internal/fixtures"
+	"github.com/metal-automata/alloy/internal/model"
+	fleetdbapi "github.com/metal-automata/fleetdb/pkg/api/v1"
 	"github.com/stretchr/testify/assert"
 )
 

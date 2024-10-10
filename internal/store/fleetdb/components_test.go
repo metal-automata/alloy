@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/metal-toolbox/alloy/internal/fixtures"
-	"github.com/metal-toolbox/alloy/internal/model"
-	fleetdbapi "github.com/metal-toolbox/fleetdb/pkg/api/v1"
+	"github.com/metal-automata/alloy/internal/fixtures"
+	"github.com/metal-automata/alloy/internal/model"
+	fleetdbapi "github.com/metal-automata/fleetdb/pkg/api/v1"
 	"github.com/sanity-io/litter"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"

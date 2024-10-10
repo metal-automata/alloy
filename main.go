@@ -1,5 +1,6 @@
 /*
-Copyright © 2023 Metal toolbox authors
+Copyright © 2023-2024 Metal toolbox authors
+Copyright 2024 metal-automata https://github.com/metal-automata
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -15,7 +16,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/metal-toolbox/alloy/cmd"
+import "github.com/metal-automata/alloy/cmd"
 
 func main() {
 	cmd.Execute()

@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/jeremywohl/flatten"
-	"github.com/metal-toolbox/alloy/internal/model"
-	"github.com/metal-toolbox/rivets/events"
+	"github.com/metal-automata/alloy/internal/model"
+	"github.com/metal-automata/rivets/events"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 )
@@ -66,7 +66,7 @@ type Configuration struct {
 }
 
 // FleetDBAPIOptions defines configuration for the fleetdb client.
-// https://github.com/metal-toolbox/fleetdb
+// https://github.com/metal-automata/fleetdb
 type FleetDBAPIOptions struct {
 	EndpointURL          *url.URL
 	FacilityCode         string   `mapstructure:"facility_code"`

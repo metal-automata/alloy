@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/bmc-toolbox/common"
-	"github.com/metal-toolbox/ironlib/actions"
+	"github.com/metal-automata/ironlib/actions"
 )
 
 // MockIronlib mocks ironlib methods, responses

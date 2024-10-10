@@ -1,4 +1,4 @@
-module github.com/metal-toolbox/alloy
+module github.com/metal-automata/alloy
 
 go 1.22
 
@@ -15,9 +15,9 @@ require (
 	github.com/jacobweinstock/registrar v0.4.7
 	github.com/jeremywohl/flatten v1.0.1
 	github.com/jinzhu/copier v0.4.0
-	github.com/metal-toolbox/fleetdb v1.19.6
-	github.com/metal-toolbox/ironlib v0.5.0
-	github.com/metal-toolbox/rivets v1.3.8
+	github.com/metal-automata/fleetdb v1.20.0
+	github.com/metal-automata/ironlib v0.5.1
+	github.com/metal-automata/rivets v1.4.0
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/nats-io/nats.go v1.37.0
 	github.com/pkg/errors v0.9.1

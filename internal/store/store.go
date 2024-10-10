@@ -3,11 +3,11 @@ package store
 import (
 	"context"
 
-	"github.com/metal-toolbox/alloy/internal/app"
-	"github.com/metal-toolbox/alloy/internal/model"
-	"github.com/metal-toolbox/alloy/internal/store/csv"
-	"github.com/metal-toolbox/alloy/internal/store/fleetdb"
-	"github.com/metal-toolbox/alloy/internal/store/mock"
+	"github.com/metal-automata/alloy/internal/app"
+	"github.com/metal-automata/alloy/internal/model"
+	"github.com/metal-automata/alloy/internal/store/csv"
+	"github.com/metal-automata/alloy/internal/store/fleetdb"
+	"github.com/metal-automata/alloy/internal/store/mock"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

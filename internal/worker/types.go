@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/metal-toolbox/alloy/internal/model"
-	rctypes "github.com/metal-toolbox/rivets/condition"
+	"github.com/metal-automata/alloy/internal/model"
+	rctypes "github.com/metal-automata/rivets/condition"
 )
 
 // Task represents a task the controller works on

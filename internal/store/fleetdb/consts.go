@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/metal-toolbox/alloy/internal/model"
+	"github.com/metal-automata/alloy/internal/model"
 )
 
 // TODO: move these consts into the hollow-toolbox to share between controllers.

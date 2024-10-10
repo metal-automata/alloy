@@ -4,10 +4,10 @@ import (
 	"context"
 
 	"github.com/bmc-toolbox/common"
-	"github.com/metal-toolbox/alloy/internal/app"
-	"github.com/metal-toolbox/alloy/internal/model"
-	"github.com/metal-toolbox/ironlib"
-	"github.com/metal-toolbox/ironlib/actions"
+	"github.com/metal-automata/alloy/internal/app"
+	"github.com/metal-automata/alloy/internal/model"
+	"github.com/metal-automata/ironlib"
+	"github.com/metal-automata/ironlib/actions"
 	"github.com/sirupsen/logrus"
 )
 

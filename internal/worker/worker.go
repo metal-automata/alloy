@@ -8,22 +8,22 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/metal-toolbox/alloy/internal/app"
-	"github.com/metal-toolbox/alloy/internal/collector"
-	"github.com/metal-toolbox/alloy/internal/metrics"
-	"github.com/metal-toolbox/alloy/internal/model"
-	"github.com/metal-toolbox/alloy/internal/store"
-	"github.com/metal-toolbox/alloy/internal/version"
+	"github.com/metal-automata/alloy/internal/app"
+	"github.com/metal-automata/alloy/internal/collector"
+	"github.com/metal-automata/alloy/internal/metrics"
+	"github.com/metal-automata/alloy/internal/model"
+	"github.com/metal-automata/alloy/internal/store"
+	"github.com/metal-automata/alloy/internal/version"
 
 	"github.com/nats-io/nats.go"
 	"github.com/pkg/errors"
 	"go.opentelemetry.io/otel"
 
-	"github.com/metal-toolbox/rivets/events"
-	"github.com/metal-toolbox/rivets/events/registry"
+	"github.com/metal-automata/rivets/events"
+	"github.com/metal-automata/rivets/events/registry"
 	"github.com/sirupsen/logrus"
 
-	rctypes "github.com/metal-toolbox/rivets/condition"
+	rctypes "github.com/metal-automata/rivets/condition"
 )
 
 const (

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/metal-toolbox/alloy/internal/metrics"
-	"github.com/metal-toolbox/alloy/internal/model"
-	"github.com/metal-toolbox/alloy/internal/store"
+	"github.com/metal-automata/alloy/internal/metrics"
+	"github.com/metal-automata/alloy/internal/model"
+	"github.com/metal-automata/alloy/internal/store"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
 	"go.opentelemetry.io/otel"

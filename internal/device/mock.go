@@ -3,7 +3,7 @@ package device
 import (
 	"context"
 
-	"github.com/metal-toolbox/alloy/internal/model"
+	"github.com/metal-automata/alloy/internal/model"
 )
 
 // NewMockDeviceQueryor returns a mock device.Queryor implementation.

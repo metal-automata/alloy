@@ -6,7 +6,7 @@ import (
 
 	"github.com/bmc-toolbox/common"
 
-	rctypes "github.com/metal-toolbox/rivets/condition"
+	rctypes "github.com/metal-automata/rivets/condition"
 )
 
 type (
